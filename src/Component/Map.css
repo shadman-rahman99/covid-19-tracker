@@ -1,0 +1,38 @@
+.map {
+  height: 375px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 16px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+/* leaflet container is a react-leaflet class */
+/* setting up height to 100% displays the map */
+.map .leaflet-container {
+  height: 100%;
+}
+.mapInfo-flag {
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 8px;
+}
+/* .mapInfo-flag img {
+  width: 100px;
+  border-radius: 1px;
+} */
+.mapInfo-container {
+  width: 150px;
+}
+.mapInfo-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555;
+}
+.mapInfo-cases,
+.mapInfo-recovered,
+.mapInfo-deaths {
+  font-size: 16px;
+  margin-top: 5px;
+}
